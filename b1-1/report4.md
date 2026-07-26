@@ -2350,7 +2350,7 @@ plt.rcParams['axes.unicode_minus'] = False       # 마이너스 기호 깨짐 �
 
 
 
-
+![이미지](./sentence_components_infographic (1).png)
 
 
 
