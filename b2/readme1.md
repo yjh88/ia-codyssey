@@ -38,7 +38,7 @@
 | **목표 메시지** | "우리가 무심코 버린 일회용 컵이 바다를 뒤덮고 있다" |
 | **화면 구성** | 로우앵글 와이드샷 / 일회용 플라스틱 컵이 떠다니는 회색빛 바다 / 흐린 하늘 / 인물 없음 / 텍스트 없음 (차가운 블루-그레이 톤) |
 | **오디오** | 내레이션(보이스오버): "매일 버려지는 일회용 컵, 2천만 개." |
-| **사용 도구 및 목적** | 이미지: **Midjourney** (문제 상황 키비주얼) / 비디오: **Runway** (파도 흔들림 + 느린 줌인) / 오디오: **Suno** (무거운 앰비언트) + **ElevenLabs TTS** (내레이션) |
+| **사용 도구 및 목적** | 이미지: **제미나이 바나나** (문제 상황 키비주얼) / 비디오: **Runway** (파도 흔들림 + 느린 줌인) / 오디오: **Suno** (무거운 앰비언트) + **ElevenLabs TTS** (내레이션) |
 | **입력 프롬프트(원문)** | `plastic disposable cups floating on gray polluted ocean surface, overcast sky, cold blue-gray tone, cinematic wide shot, low angle, realistic, muted colors --ar 16:9` |
 | **출력 결과 요약** | 차가운 색감의 오염된 바다 이미지로 문제의식 전달 성공 |
 | **결과 파일명** | `scene01_keyvisual.png` / `scene01_motion.mp4` / `scene01_amb.wav` / `scene01_vo.mp3` |
@@ -54,7 +54,7 @@
 | **화면 구성** | 미디엄 클로즈업 / 20대 여성이 Terra 텀블러를 가슴 높이로 들고 **카메라를 정면으로 보며 발화** / 따뜻한 자연광, 초록 아웃포커스 배경 / 텍스트 없음 (씬1과 대비되는 따뜻한 톤 전환) |
 | **오디오(립싱크 대사)** | **"바꿀 수 있어요. 컵 하나로."** (약 2.2초) |
 | **연기 타이밍** | 0~0.3초 미소 → 0.3~2.5초 발화 → 2.5~3초 텀블러 살짝 들어 보이며 마무리 |
-| **사용 도구 및 목적** | 이미지: **Midjourney** (인물 정면 컷, `--sref`로 톤 고정) / **립싱크: Runway Act-One** (이미지+오디오 → 입모양 매칭) / 음성: **ElevenLabs TTS** (밝고 친근한 여성 보이스) / BGM: **Suno** (밝게 전환되는 어쿠스틱) |
+| **사용 도구 및 목적** | 이미지: **제미나이 바나나** (인물 정면 컷, `--sref`로 톤 고정) / **립싱크: Runway Act-One** (이미지+오디오 → 입모양 매칭) / 음성: **ElevenLabs TTS** (밝고 친근한 여성 보이스) / BGM: **Suno** (밝게 전환되는 어쿠스틱) |
 | **입력 프롬프트(원문)** | `portrait of a young korean woman in her 20s, holding a matte white and sage green eco-friendly tumbler near her chest, facing camera directly, gentle warm smile, mouth closed, warm natural sunlight, soft green bokeh background, medium close-up, cinematic, realistic --ar 16:9 --sref [씬2 스타일 URL]` |
 | **출력 결과 요약** | 정면 응시·입 다문 인물 컷 확보 → 립싱크 변환 후 자연스러운 발화 장면 완성, 씬1과의 색 대비로 전환 효과 극대화 |
 | **결과 파일명** | `scene02_talent.png` / `scene02_dialogue.mp3` / `scene02_lipsync.mp4` / `scene02_bgm.wav` |
@@ -67,7 +67,7 @@
 #### 🔧 립싱크 작업 순서
 ```
 ① ElevenLabs 대사 음성 생성 (2.2초 이내 확인)
-② Midjourney 인물 이미지 생성
+② Midjourney 인물 이미지 생성 => 제미나이 바나나로 대체( 기존에 가입해서 이용하던 제미나이 바나나 툴로 수정)
 ③ 립싱크 툴에 이미지 + 오디오 업로드 → 입모양 자동 매칭
 ④ 검수: 입 벌어짐 과하지 않은지 / "컵" 파열음에서 입이 닫히는지
 ⑤ 어색하면 → 오디오 속도 조절 또는 이미지 재생성
@@ -83,7 +83,7 @@
 | **목표 메시지** | "Terra와 함께하는 지속가능한 일상 — 브랜드 각인" |
 | **화면 구성** | 미디엄샷 / 푸른 숲·맑은 하늘 배경, Terra 텀블러를 든 손(인물은 손만) / 화면 하단에 로고 + 슬로건 텍스트 인서트 **(텍스트 있음)** |
 | **오디오** | 내레이션(브랜드 보이스): "당신의 한 모금이, 지구의 하루를 바꾼다. — Terra" |
-| **사용 도구 및 목적** | 이미지: **Midjourney** (`--sref`로 씬2 톤 유지) / 비디오: **Runway** (부드러운 패닝) / 오디오: **Suno** (희망적 마무리) + **ElevenLabs TTS** / 로고·자막: **CapCut** |
+| **사용 도구 및 목적** | 이미지: **제미나이 바나나** (`--sref`로 씬2 톤 유지) / 비디오: **Runway** (부드러운 패닝) / 오디오: **Suno** (희망적 마무리) + **ElevenLabs TTS** / 로고·자막: **CapCut** |
 | **입력 프롬프트(원문)** | `hand holding eco-friendly tumbler against lush green forest and clear blue sky, warm golden sunlight, hopeful atmosphere, shallow depth of field, cinematic --ar 16:9 --sref [씬2 스타일 URL]` |
 | **출력 결과 요약** | 자연과 제품이 어우러진 희망적 엔딩 컷, 로고 삽입 공간 확보 |
 | **결과 파일명** | `scene03_ending.png` / `scene03_motion.mp4` / `scene03_bgm.wav` / `scene03_vo.mp3` |
@@ -123,7 +123,10 @@
 | **문제 ①** | 배경 초록색이 과해 제품이 묻히고, 인공 조명이 브랜드 톤(자연광·미니멀) 부족 |
 | **문제 ②** | 제품이 돋보이는 게 약함 |
 | **수정 후 변경** | 제품 단독 컷 → **베품 후광효과 발화 컷**으로 전면 변경. 브랜드 톤 키워드 구체화 |
-| **결과 변화** |  색 대비 전환 명확, 제품 두드러지는 효과강화 |---
+| **결과 변화** |  색 대비 전환 명확, 제품 두드러지는 효과강화 |
+
+## 5-3 클로드 AI에게 요청헤서 나온 그대로가 아닌, 제미나이 바나나로 툴을 변경함으로써 주체적인 AI사용능력 향상 하고자 함
+---
 
 ## 6. 사용 도구 목록 (대체 도구 포함)
 
@@ -132,4 +135,4 @@
 | 이미지 생성 | Midjourney | 톤앤매너 표현력 우수, `--sref`로 스타일 일관성 유지 | DALL·E 3, Stable Diffusion |
 | 비디오 변환 | Runway (Gen-3) | 이미지→모션 변환 안정적, 카메라 무빙 제어 용이 | Kling, Pika |
 | **립싱크** | **Runway Act-One** | 정지 이미지 + 오디오만으로 자연스러운 입모양 생성 | Kling Lip-sync, Hedra |
-| BGM 생성 | Suno | 씬별 무드 전환(무거움→밝음→
+| BGM 생성 | Suno | 씬별 무드 전환(무거움→밝음→희망참)
