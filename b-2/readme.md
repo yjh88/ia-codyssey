@@ -156,5 +156,5 @@
 - **프레임**: 30fps
 - **코덱**: H.264 + AAC
 
-- <img width="2130" height="1516" alt="image" src="https://github.com/user-attachments/assets/b1f5dfdb-25a3-4f48-a830-ea0e993c6880" />
+
 
