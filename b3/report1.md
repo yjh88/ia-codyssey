@@ -26,6 +26,10 @@ Google News RSS
 → Gmail 또는 Slack 알림
 ```
 
+<img width="717" height="494" alt="스크린샷 2026-08-30 오후 12 30 35" src="https://github.com/user-attachments/assets/79794b3b-394e-4953-a691-4d4273aeed8b" />
+
+
+
 ## 5. RSS 주소 예시
 ```text
 https://news.google.com/rss/search?q=삼성전자%20주식&hl=ko&gl=KR&ceid=KR:ko
