@@ -25,8 +25,8 @@ Google News RSS
 → Google Sheets 기록
 → Gmail 또는 Slack 알림
 ```
+<img width="1010" height="457" alt="스크린샷 2026-09-08 오후 8 26 48" src="https://github.com/user-attachments/assets/a21639e3-ed39-40c1-b357-444d71dbff1f" />
 
-<img width="717" height="494" alt="스크린샷 2026-08-30 오후 12 30 35" src="https://github.com/user-attachments/assets/79794b3b-394e-4953-a691-4d4273aeed8b" />
 
 
 
@@ -56,6 +56,9 @@ https://news.google.com/rss/search?q=테슬라%20주식&hl=ko&gl=KR&ceid=KR:ko
 
 ## 9. 구현 가이드
 자세한 구현 방법은 아래 문서를 참고한다.
+
+<img width="1674" height="683" alt="스크린샷 2026-09-08 오후 8 27 27" src="https://github.com/user-attachments/assets/cc1b588e-caac-4f3c-bbde-54d7f004a1cf" />
+
 
 - [Make 구현 가이드](./MAKE_GUIDE.md)
 - [Zapier 구현 가이드](./ZAPIER_GUIDE.md)
