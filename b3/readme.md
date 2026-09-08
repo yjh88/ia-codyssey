@@ -27,6 +27,15 @@ Google News RSS
 → Gmail 또는 Slack 알림
 ```
 
+<img width="1094" height="760" alt="스크린샷 2026-09-08 오후 6 52 45" src="https://github.com/user-attachments/assets/8e8b99e0-07d3-4ce4-9f96-d8810aab3be8" />
+
+
+Possible fixes:
+
+Use percent-encoded text in the URL field.
+Put the search query in a safe RSS URL format.
+Check the URL for spaces or special characters.
+
 ## 5. RSS 주소 예시
 ```text
 https://news.google.com/rss/search?q=삼성전자%20주식&hl=ko&gl=KR&ceid=KR:ko
