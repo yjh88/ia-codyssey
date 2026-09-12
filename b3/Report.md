@@ -339,5 +339,8 @@ RSS 수집     Sheets 조회   키워드 조건  Sheets 기록   Gmail 발송
 > **초보자에게는 Zapier가 훨씬 접근하기 쉬운 도구**라고 생각합니다.
 
 
+<img width="873" height="365" alt="스크린샷 2026-09-12 오후 1 14 23 복사본" src="https://github.com/user-attachments/assets/c710fed9-084a-49ed-8814-81fdbc617d4a" />
+
+
 
 
